@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .teasers {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: $spacing;
+
+    border-radius: $border-radius;
+    padding: $spacing;
+    margin: 0 1rem $spacing 1rem;
+
+    box-shadow: $shadow;
+
+    img {
+      border-radius: $border-radius;
+      box-shadow: $shadow;
+    }
+  }
+
+  p {
+    padding: $spacing;
+    margin: 0 1rem $spacing 1rem;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+  }
+}

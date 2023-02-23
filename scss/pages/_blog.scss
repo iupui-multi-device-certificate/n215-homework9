@@ -1,0 +1,27 @@
+.blog {
+  .blogs {
+    .blog-post {
+      padding: $spacing;
+      margin: 0 1rem $spacing 1rem;
+      border-radius: $border-radius;
+      box-shadow: $shadow;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      gap: $spacing;
+
+      .blog-post-body {
+        .blog-post-title {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-md) {
+  .blogs .blog-post {
+    display: flex;
+    flex-direction: column;
+  }
+}

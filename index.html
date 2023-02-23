@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 8</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- * Dog images courtesy of https://loremflickr.com/ -->
+    <!-- TODO: run Lighthouse report - semantic & accessibility checks -->
+  </head>
+  <body class="container">
+    <!-- leave links underlined to stick with semantic principles -->
+    <nav class="navbar">
+      <a id="home" class="upper logo-link" href="#"
+        ><i class="fa-solid fa-paw"></i><span>Paw Savers</span></a
+      >
+      <a id="adopt" class="upper" href="#">Adopt</a>
+      <a id="blog" class="upper" href="#">Blog</a>
+      <a id="about" class="upper" href="#">About</a>
+    </nav>
+    <main>
+      <div class="content" id="app"></div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="copyright">
+          Copyright 2023 Paw Savers, LLCs. All rights reserved
+        </div>
+      </div>
+    </footer>
+    <script src="lib/jquery-3.6.3.min.js"></script>
+    <script src="app/app.js" type="module"></script>
+  </body>
+</html>

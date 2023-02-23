@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 50px;
+  margin-bottom: $spacing;
+  font-size: 1.5rem;
+
+  background-color: black;
+
+  a {
+    color: $brand-light;
+    text-decoration-color: $brand-primary;
+    text-decoration-thickness: 2px;
+    &:hover {
+      color: $brand-primary;
+      text-decoration-color: $brand-light;
+    }
+  }
+
+  .logo-link {
+    color: $brand-primary;
+
+    text-decoration-color: $brand-light;
+    i {
+      margin-right: 0.5rem;
+    }
+    &:hover {
+      color: $brand-light;
+      text-decoration-color: $brand-primary;
+    }
+  }
+}
