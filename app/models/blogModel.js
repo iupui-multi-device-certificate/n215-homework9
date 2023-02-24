@@ -1,5 +1,6 @@
 //array of objects
 //content is rich text and includes HTML tags
+//TODO: fix ID >> id
 
 export const blogModel = [
   {

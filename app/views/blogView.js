@@ -13,6 +13,7 @@ const renderBlogs = (blogs) => `
 `;
 
 //maybe pass title?
+//TODO: could this be more generic layout view ??
 export const blogView = (blogs) => `
 
         <section class="blog">
