@@ -15,14 +15,17 @@ const blogContent = blogView(blogModel);
 const adoptContent = adoptView(adoptModel);
 const aboutContent = aboutView(aboutModel);
 
+const changeContent = (contentID) => $("#app").html(eval(contentID));
+const setHome = () => $("#app").html(homeContent);
+
 function initListeners() {
   $("nav a").click(function (e) {
     let aID = e.currentTarget.id;
     let contentID = aID + "Content";
-    $("#app").html(eval(contentID));
+    changeContent(contentID);
   });
 }
 $(document).ready(function () {
   initListeners();
-  // $("#app").html(homeContent);
+  setHome();
 });
