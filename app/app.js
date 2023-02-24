@@ -1,17 +1,13 @@
-import { homeView } from "../app/views/homeView.js";
-
-import { adoptView } from "../app/views/adoptView.js";
-
-import { blogView } from "../app/views/blogView.js";
-
-import { aboutView } from "../app/views/aboutView.js";
-
+//why is Prettier adding a comma after aboutModel but not aboutView??
 import {
   homeModel,
   adoptModel,
   blogModel,
   aboutModel,
 } from "./models/model.js";
+
+import { homeView, adoptView, blogView, aboutView } from "./views/view.js";
+
 const homeContent = homeView(homeModel);
 const blogContent = blogView(blogModel);
 const adoptContent = adoptView(adoptModel);
