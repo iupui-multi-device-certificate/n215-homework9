@@ -58,6 +58,7 @@ body {
   color: #fff;
   text-decoration-color: deeppink;
   text-decoration-thickness: 2px;
+  text-underline-offset: 0.5rem;
 }
 .navbar a:hover {
   color: deeppink;

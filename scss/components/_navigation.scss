@@ -13,6 +13,7 @@
     color: $brand-light;
     text-decoration-color: $brand-primary;
     text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
     &:hover {
       color: $brand-primary;
       text-decoration-color: $brand-light;
