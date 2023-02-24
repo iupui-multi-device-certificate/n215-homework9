@@ -19,6 +19,11 @@
     margin: 0 1rem $spacing 1rem;
     border-radius: $border-radius;
     box-shadow: $shadow;
+
+    //even rows image on right
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
   }
 }
 

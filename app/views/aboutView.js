@@ -1,5 +1,3 @@
-//TODO: alternate images if time
-//could this be done w/ CSS row-reverse? still how apply every other one??
 const renderTeamMember = (teamMember) => `  
     <div class="team-member-container">
       <img src="${teamMember.relativeImagePath}" alt="${teamMember.name}" />
