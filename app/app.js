@@ -1,14 +1,17 @@
 // import { homeContent } from "../app/views/home.js";
-// import { aboutContent } from "../app/views/about.js";
-
-import { blogModel } from "../app/models/blogModel.js";
-import { blogView } from "../app/views/blogView.js";
 
 import { adoptModel } from "../app/models/adoptModel.js";
 import { adoptView } from "../app/views/adoptView.js";
 
+import { blogModel } from "../app/models/blogModel.js";
+import { blogView } from "../app/views/blogView.js";
+
+import { aboutModel } from "../app/models/aboutModel.js";
+import { aboutView } from "../app/views/aboutView.js";
+
 const blogContent = blogView(blogModel);
 const adoptContent = adoptView(adoptModel);
+const aboutContent = aboutView(aboutModel);
 
 function initListeners() {
   $("nav a").click(function (e) {
