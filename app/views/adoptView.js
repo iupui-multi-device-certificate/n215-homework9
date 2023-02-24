@@ -4,7 +4,7 @@ const renderAdoptee = (adoptee) => `
         <div class="card-body">
           <h1 class="card-title">${adoptee.name}</h1>
           ${adoptee.summary}
-          <a href="#" class="card-link">Adopt Me</a>
+          <a href="#" class="card-link upper">Adopt Me</a>
         </div>
     </article>
 `;

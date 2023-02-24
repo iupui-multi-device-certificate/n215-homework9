@@ -1,10 +1,9 @@
 //array of objects
 //content is rich text and includes HTML tags
-//TODO: fix ID >> id
 
 export const blogModel = [
   {
-    ID: 1,
+    id: 1,
     title: "Blog 1",
     relativeImagePath: "./images/blog/blog01.jpeg",
     content: `<p>
@@ -15,7 +14,7 @@ export const blogModel = [
       </p>`,
   },
   {
-    ID: 2,
+    id: 2,
     title: "Blog 2",
     relativeImagePath: "./images/blog/blog02.jpeg",
     content: `<p>
@@ -26,7 +25,7 @@ export const blogModel = [
       </p>`,
   },
   {
-    ID: 3,
+    id: 3,
     title: "Blog 3",
     relativeImagePath: "./images/blog/blog03.jpeg",
     content: `<p>
