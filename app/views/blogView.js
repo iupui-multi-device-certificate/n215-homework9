@@ -12,8 +12,6 @@ const renderBlogs = (blogs) => `
   ${blogs.map((blog) => renderPost(blog)).join("")}
 `;
 
-//maybe pass title?
-//TODO: could this be more generic layout view ??
 export const blogView = (blogs) => `
 
         <section class="blog">
