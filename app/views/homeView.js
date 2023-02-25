@@ -1,5 +1,10 @@
 const renderTeaser = (teaser) => `
-      <img src="${teaser.relativeImagePath}" alt="${teaser.title}" />
+      <figure class="teaser">
+        <img src="${teaser.relativeImagePath}" alt="${teaser.title}" />
+        <figcaption>
+          <a href="#" class="upper">Adopt Me</a>
+        </figcaption>
+      </figure>
 
 `;
 
