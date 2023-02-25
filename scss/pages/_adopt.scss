@@ -17,6 +17,13 @@
       align-items: center;
       gap: $spacing;
 
+      img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+      }
       .card-title {
         text-align: center;
         color: $brand-primary;
@@ -34,12 +41,6 @@
           font-size: 1.25rem;
           font-weight: 700;
         }
-      }
-
-      img {
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
       }
     }
   }
