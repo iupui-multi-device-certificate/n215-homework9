@@ -1,12 +1,12 @@
 const renderAdoptee = (adoptee) => `  
-    <article class="card">
+    <figure class="card">
       <img src="${adoptee.relativeImagePath}" alt="${adoptee.name}" />
-        <div class="card-body">
+        <figcaption class="card-body">
           <h1 class="card-title">${adoptee.name}</h1>
           ${adoptee.summary}
           <a href="#" class="card-link upper">Adopt Me</a>
-        </div>
-    </article>
+        </figcaption>
+    </figure>
 `;
 
 const renderAdoptees = (adoptees) => `
