@@ -20,10 +20,11 @@
     border-radius: $border-radius;
     box-shadow: $shadow;
 
+    //This messes up in mobile view though and do not have time to fix
     //even rows image on right
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
+    // &:nth-child(even) {
+    //   flex-direction: row-reverse;
+    // }
   }
 }
 
@@ -31,5 +32,9 @@
   .team-member-container {
     display: flex;
     flex-direction: column;
+    // //set even rows same as rest
+    // &:nth-child(even) {
+    //   flex-direction: column;
+    // }
   }
 }
